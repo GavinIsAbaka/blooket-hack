@@ -16,7 +16,7 @@ const capitalize = (text) => text.charAt(0).toUpperCase() + text.slice(1);
             bot: 20,
             space: 20,
             breakfast: 15,
-            medieval: 15,
+            medieval: 1,
             wonderland: 20
         })[box],
         opens = amount > Math.floor(tokens / price) ? Math.floor(tokens / price) : amount;
