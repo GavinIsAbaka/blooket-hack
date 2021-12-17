@@ -128,7 +128,7 @@ const capitalize = (text) => text.charAt(0).toUpperCase() + text.slice(1);
                 Werewolf: 75,
                 Ghost: 200,
                 "Haunted Pumpkin": 300,
-                "Snow Globe": 5,
+                "Snow Globe": 10000,
                 "Holiday Gift": 5,
                 "Hot Chocolate": 5,
                 "Holiday Wreath": 5,
