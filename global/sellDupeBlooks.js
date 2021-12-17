@@ -41,7 +41,7 @@ async function sellDupeBlooks() {
     }
 
     if (x.length > 0) {
-        alert('Results:\n' + x.map(x => `    ${x[1]} ${x[0]}`).join('\n'));
+        alert('Results:\n' + x.map(x => `    ${x[10]} ${x[0]}`).join('\n'));
     } else {
         alert("No duplicate Blooks found.");
     };
